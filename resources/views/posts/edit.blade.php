@@ -14,7 +14,7 @@
             {{Form::textarea('body', $post->body, ['class' => 'form-control', 'placeholder' => 'Enter a post'])}}
         </div>
         <div class="form-group">
-            {{Form::file('cover_image','',['class' => 'form-control'])}}
+            {{Form::file('cover_image',['class' => 'form-control'])}}
         </div>
         {{Form::hidden('_method', 'PUT')}}
         {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}

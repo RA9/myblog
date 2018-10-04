@@ -19,7 +19,7 @@
                  </div>
         @endforeach
         {{$posts->links()}}
-    @else
+     @else
         <p>No posts found</p>
-    @endif
+   @endif
 @endsection
